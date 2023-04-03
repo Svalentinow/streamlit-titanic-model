@@ -1,0 +1,9 @@
+Jinja2==2.10.1
+numpy>=1.9.2
+streamlit
+streamlit_option_menu
+streamlit-extras
+tensorflow
+nltk
+scikit-learn==0.23.2
+pickle
