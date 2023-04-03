@@ -4,8 +4,8 @@ def homes():
     from streamlit_option_menu import option_menu
     from streamlit_extras.switch_page_button import switch_page
     import pickle
-    
-
+    from sklearn import tree
+    from sklearn.tree import DecisionTreeClassifier 
     def set_bg_hack_url():
         '''
         A function to unpack an image from url and set as bg.
